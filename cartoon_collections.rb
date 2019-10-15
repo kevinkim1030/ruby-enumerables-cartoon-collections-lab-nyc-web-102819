@@ -7,8 +7,6 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(array)
-  i = 0 
-  if array.any?
 end
 
 def long_planeteer_calls# code an argument here
