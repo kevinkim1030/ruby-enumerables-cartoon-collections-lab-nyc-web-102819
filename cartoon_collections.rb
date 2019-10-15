@@ -8,10 +8,8 @@ end
 
 def summon_captain_planet(array)
   new_array = []
-  i = 0 
-  while i < array.length do
-    new_array << array.count
-    i +=1 
+  array.collect do |i|
+    new_array << "#{i.capitalize}!"
   end
 end
 
