@@ -11,6 +11,7 @@ def summon_captain_planet(array)
   i = 0 
   while i < array.length do
     new_array << array.count
+    i +=1 
   end
 end
 
